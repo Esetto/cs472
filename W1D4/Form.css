@@ -3,9 +3,10 @@ legend{
     background-color: white;
     border-width:1px;
 }
+
 fieldset{
     background-color: rgba(187, 135, 235, 0.432);
-    
+    border-radius: 10px;
 }
 body{
     width: 400px;
