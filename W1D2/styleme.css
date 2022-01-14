@@ -1,0 +1,36 @@
+ body {
+    background-color:rgb(71, 67, 67);
+     
+}
+
+h1 {
+    color:rgb(31, 181, 231);
+    text-align: center;
+    
+}
+h4{
+    color:rgb(93, 192, 238);
+    font-style:unset;
+    font-size: 22px;
+}
+h3{
+    color: rgb(243, 181, 119);
+}
+p{
+   font-family:Georgia, 'Times New Roman', Times, serif; 
+   color:white ;
+}
+section{
+    color: light;
+}
+li{
+    color: mistyrose;
+}
+span{
+    color:rgb(221, 138, 138);
+    font-style: italic;
+}
+ #imgdiv1{
+    float:left;
+    width: 400px;
+}
