@@ -11,7 +11,7 @@
         let tip = document.getElementById('tip').value;
 
 
-        let totsal = document.getElementById("total").value = (tip / 100) * subtotal;
+        let totsal = document.getElementById("total").value = +subtotal + ((tip / 100) * subtotal);
         document.getElementById('total').innerHTML = totsal
         document.getElementById('subtotal').value = null
         document.getElementById('tip').value = null
