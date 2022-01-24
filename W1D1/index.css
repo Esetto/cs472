@@ -1,0 +1,66 @@
+body{
+    background-image: url("./nick-nice-gPm8h3DS1s4-unsplash.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 350px;
+}
+#img{
+    /* filter: opacity(85%); */
+    object-fit:cover ;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+@media only screen and (max-width: 320px) {
+
+    h1 { 
+       font-size: 2em; 
+    }
+ 
+ }
+h1{
+    border-radius: 29px;
+    display: inline;
+
+    /* background-image: url(./nick-nice-gPm8h3DS1s4-unsplash.jpg); */
+    /* filter: opacity(75%); */
+    /* filter: blur(8px); */
+    margin-top: 0pt;
+    font-size: 54pt;
+    font-weight: bolder;
+    /* float: right; */
+    color: rgb(241, 181, 14);
+    /* width: 250px;
+    height: auto; */
+}
+legend{
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+ul{
+    color: wheat;
+    font-size: 22px
+}
+a{
+    color: wheat;
+}
+div{
+    margin:auto;
+    width: 100%;
+    height: 350px;
+    background-image: url(./alessandro-viaro-fwWj5Y1IgQg-unsplash.jpg);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    filter: opacity(80%);
+    
+    border-radius: 10px;
+   /* object-fit: scale-down; */
+  
+
+    
+}
+fieldset{
+    width: 100%;
+    height: auto;
+}
