@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+</head>
+<style>
+  body {background-color: rgb(51, 103, 110);}
+  h1   {background-color: rgb(166, 237, 247);text-align: center;color: rgb(3, 3, 10);}
+  p    {font-size: large;color: rgb(8, 2, 2);}
+  form{margin-left: 20%;}
+  
+  </style>
+<body >
+  <h1>Simple Calculator</h1>
+
+  
+  <form action= "http://localhost:9000/calculator.js">
+    <div>
+      <p >
+      Enter two numbers </p>
+      <input type = "text" name="num1"/><br/> 
+      <input type = "text" name="num2"/><br/>
+      <select name="operation" id="operation">
+        <option value="add">Add</option>
+        <option value="subtract">Subtract</option>
+        <option value="multiply">Multiply</option>
+        <option value="devide">Devide</option>
+      </select>
+      <br> <br>
+
+       <input type="submit" value="Submit"/> 
+      </div>
+
+  </form>
+</body>
+</html>
