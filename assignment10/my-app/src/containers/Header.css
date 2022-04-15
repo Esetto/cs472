@@ -1,0 +1,16 @@
+.header a:hover,
+.header a:active{
+    color: #b864da;
+}
+.header button{
+    font-size: 1.25rem;
+    background-color: #ffbb00;
+    border: 1px ,solid,#ffbb00;
+    box-shadow: 0 1px 4px rgb(0, 0, 0.2);
+    color: #2c2922;
+}
+.header button:hover,
+.header button:active{
+    background-color: #ffbb00 ;
+    border-color:  #ffbb00;
+}

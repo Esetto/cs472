@@ -1,15 +1,4 @@
-.posts{
-    margin-top: 80px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    width: 80%;
-    margin:auto;
-    align-items: inherit;
-    
-  
-  }
-  .content{
+.Content{
     background-color: dodgerblue;
     margin: 5%;
     width: 20%;
@@ -20,7 +9,7 @@
     padding: auto;
     
   }
-  .field{
+  .Field{
     
     margin-top: 60px;
     margin-left: 10px;;
@@ -29,13 +18,4 @@
     justify-content: space-around;
 
     
-  }
-  input{
-    width: 20%;
-  }
-  
-  
-  #root{
-    margin-top: 200px;
-    background-color: ivory;
   }
